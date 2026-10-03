@@ -271,3 +271,5 @@ For every important development, determine:
 Prioritize new information that could change the market's supply, demand, trade-flow, positioning, or macro expectations.
 
 Do not infer causation merely because a news event and a futures price move occurred at the same time. When the reason for a price move is uncertain, state that clearly.
+
+## Recent Research Engine
