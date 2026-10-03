@@ -216,3 +216,58 @@ When asked for a sugar market update without further instructions, produce:
 13. Sources
 
 Keep the briefing focused on developments that could materially affect ICE White Sugar No. 5 futures.
+
+## Recent Research Engine
+
+For requests involving recent news, developments, sentiment, or changes over time, use the repository's `last30days` research capability as the primary recent-information research engine.
+
+The `last30days` skill is located at:
+
+`skills/last30days/`
+
+Use its research workflow and available sources to gather recent information, then apply the sugar-specific analysis framework defined in this skill.
+
+When constructing research queries, do not search only for "sugar futures." Break the research into multiple targeted searches covering the major drivers of ICE White Sugar No. 5.
+
+Examples include:
+
+- ICE White Sugar No. 5
+- London white sugar futures
+- sugar market
+- Brazil sugar production
+- Brazil Center-South cane crush
+- UNICA sugar
+- Brazil sugar ethanol mix
+- Brazil sugar exports
+- India sugar production
+- India sugar exports
+- India sugar export policy
+- India ethanol sugar
+- Thailand sugar production
+- Thailand cane crop
+- EU sugar beet
+- UK sugar beet
+- China sugar imports
+- global sugar deficit surplus
+- sugar physical premiums
+- white sugar premium
+- sugar speculative positioning
+- sugar weather
+- Brazil real sugar
+- crude oil ethanol sugar
+
+Combine and deduplicate the findings before analysis.
+
+For every important development, determine:
+
+1. What happened?
+2. When did it happen?
+3. What is the source?
+4. Is it confirmed data, an estimate, commentary, or rumor?
+5. What is the likely transmission mechanism to ICE White Sugar No. 5?
+6. Is the implication potentially bullish, bearish, mixed, or uncertain?
+7. Is this genuinely new information or already-known background?
+
+Prioritize new information that could change the market's supply, demand, trade-flow, positioning, or macro expectations.
+
+Do not infer causation merely because a news event and a futures price move occurred at the same time. When the reason for a price move is uncertain, state that clearly.
